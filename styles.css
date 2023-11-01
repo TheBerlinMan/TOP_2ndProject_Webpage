@@ -1,0 +1,186 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 10px 80px;
+    margin: 0;
+}
+
+.logo{
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(239, 239, 239);
+    font-size: 14px;
+}
+
+.container{
+    padding: 40px 80px;    
+}
+
+.container.one{
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.container.one p{
+    color: white;
+    font-size: 18px;
+}
+
+.container.one button{
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.container.one img{
+    width: 750px;
+    height: 150px;
+    flex: 1;
+}
+
+.info{
+    flex: 1;
+}
+
+.container.two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+h2{
+    font-size: 36px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box{
+    max-width: 100px;
+}
+    
+.container.two p{
+    font-size: 14px;
+    color: #454545;
+}
+
+.container.two img{
+    border-radius: 10px;
+    margin-bottom: -10px;
+    
+}
+
+.container.three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 40px 160px;
+}
+
+.container.three p{
+    margin: 0;
+    padding: 0;
+}
+
+.container.three .quote{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.container.three .name{
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container.four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.four .otherbox{
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 15px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    gap: 100px; 
+}
+
+.container.four button{
+    flex: 1;
+    background-color: #3882f6;
+    color: white;
+    border: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.container.four .otherinfo{
+    flex: 5;
+}
+
+.container.four h3, .container.four p{
+    padding: 0;
+    margin: 0;
+}
+
+.container.four h3{
+    color: white;
+    font-size: 24px;
+}
+
+.container.four p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex ;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
